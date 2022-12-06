@@ -1,0 +1,27 @@
+@import './../../App.scss';
+
+.cell {
+  display: flex;
+
+  @include cell-size;
+
+  align-items: center;
+  justify-content: center;
+
+  // border: solid;
+  // border-width: 1px;
+  // border-color: #dcd3ea;
+
+  &.cell--white {
+    background-color: #fccc74;
+  }
+
+  &.cell--black {
+    background-color: #8a785d;
+  }
+
+  &:hover {
+    background-color: #17178c;
+  }
+
+}

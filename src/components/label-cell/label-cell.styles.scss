@@ -1,0 +1,9 @@
+@import './../../App.scss';
+
+.label-cell {
+  @include cell-size;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
